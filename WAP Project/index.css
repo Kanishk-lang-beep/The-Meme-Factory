@@ -1,0 +1,19 @@
+#meme-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+#meme-container img {
+  width: 100%;
+}
+@media (max-width: 900px) {
+  #meme-container {
+    grid-template-columns: repeat(4, 1fr)
+  }
+}
+@media (max-width: 500px) {
+  #meme-container {
+    grid-template-columns: repeat(1, 1fr)
+  }
+}
